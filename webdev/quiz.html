@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="wonclickthaddDisplay()=device-wonclickthaddDisplay(), initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+   <div class="calculator"> 
+      <input type="text" id="display" >
+      <div class="btns">   
+      <div class="btn1">
+      <button  class="btn r1" value="C" onclick="clearDisplay()" >C</button>
+      <button  class="btn r1" value="%" onclick="addToDisplay('%')" >%</button>
+      <button  class="btn r1" value="÷" onclick="addToDisplay('/')" >÷</button>
+      <button  class="btn col4" value="÷" onclick="addToDisplay()" >÷</button>
+      </div>
+      <div class="btn1">
+      <button  class="btn" value="7" onclick="addToDisplay('7')">7</button>
+      <button  class="btn" value="8" onclick="addToDisplay('8')" >8</button>
+      <button  class="btn" value="9" onclick="addToDisplay('9')" >9</button>     
+      <button  class="btn col4" value="x" onclick="addToDisplay('*')" >x</button>
+</div>
+<div class="btn1">
+      <button  class="btn" value="4" onclick="addToDisplay('4')" >4</button>
+      <button class="btn"  value="5" onclick="addToDisplay('5')" >5</button>
+      <button  class="btn" value="6" onclick="addToDisplay('6')" >6</button>     
+      <button  class="btn col4" value="-" onclick="addToDisplay('-')" >-</button>
+</div>
+<div class="btn1">
+      <button class="btn" value="1" onclick="addToDisplay('1')" >1</button>
+      <button  class="btn" value="2" onclick="addToDisplay('2')" >2</button>
+      <button  class="btn" value="3" onclick="addToDisplay('3')" >3</button>
+      <button  class="btn col4" value="+" onclick="addToDisplay('+')" >+</button>
+</div>
+   <div class="btn1">
+      <button  class="btn nb0" value="0" onclick="addToDisplay('0')" >0</button>
+      <button  class="btn" value="." onclick="addToDisplay('.')">.</button>
+      <button class="btn col4"   value="=" onclick="calculate()" >=</button>
+   </div>
+</div>
+    </div>
+   <script src="quiz.js"></script>
+</body>
+</html>

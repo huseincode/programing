@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'Lato',sans-serif;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 16px;
+    background: linear-gradient(to right,rgb(48, 47, 47),aqua);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.login-card{
+    width:450px;
+    min-width: 300px;
+    height: 90%;
+    background: #242424;
+    padding: 62px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+    position: absolute;
+}
+.login-head{
+font-size: 24px;
+padding: 30px;
+margin-bottom: 20px;
+color: #fff;
+letter-spacing: 4px;
+}
+.login-card .login-input input{
+width:100%;
+padding: 10px 0;
+background: transparent;
+color: #fff;
+border: none;
+outline: none;
+border-bottom:1px solid aqua;
+margin-bottom: 30px;
+}
+.login-card .login-input{
+    position: relative;
+}
+.login-card .l1 label{
+    color:#474444d9;
+    top: -25px;
+    position: absolute;
+    padding: 10px 0;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.55s;
+}
+.login-card .l2 label{
+    color:rgba(228, 43, 43, 0.85);
+    top: -25px;
+    position: absolute;
+    padding: 10px 0;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.55s;
+}
+
+.login-card .login-inputs input:focus~label,
+.login-card .login-inputs input:valid ~label{
+    top:-20px;
+    left:0;
+    color: aqua;
+    font-size: 12px;
+}
+.login-card form a{
+    position: relative;
+    display: inline-block;
+    padding:10px 20px ;
+    color:aqua;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+.button{
+    background: transparent;
+    border: 1px solid aqua;
+    font-weight: 800;
+    padding:10px;
+    letter-spacing: 3px;
+    color:#fff;
+}
+.button:hover{
+    background: aqua;
+    color: #242424;
+    font-weight: 800;
+    transition: all ease .55s;
+}
+.border{
+    align-items: center;
+    justify-content: center;
+    position:relative ;
+    padding: 20px 0;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+}
+.other{
+    padding: 20px 0;
+    position: relative;
+    padding-bottom: 0px;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color: aqua;
+    transition: all ease 0.5s;
+}
+.other{
+    color:#fff
+}
+.svges{
+    margin: 10px 20px;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+.other-items{
+    position: relative;
+    top: 20px;
+    justify-content: space-between;
+}
+p{
+    color: rgba(71, 68, 68, 0.85);
+}
+.btn2{
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+.hidden{
+    display: none;
+}
+.hidden.reveal-btn{
+    display: block;
+}

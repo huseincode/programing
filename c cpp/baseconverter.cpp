@@ -49,5 +49,5 @@ int main(){
     A=baseA_reader();
    int d= convert_to_baseA(N,A);
     B=baseB_reader();
-    baseA_to_baseB(d,A,B);
+  
 }
